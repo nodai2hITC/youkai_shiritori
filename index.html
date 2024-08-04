@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ようかいしりとりシミュレーター</title>
+<link rel="stylesheet" href="style.css">
+<script src="youkai_data.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+    <p>
+        <input type="text" id="myname" name="myname" value="妖怪はかせ" placeholder="あなたの名前" />
+        <button id="start">開始／やり直し</button>
+        <input type="radio" id="easy" name="difficulty" value="easy" checked />
+        <label for="easy">イージー</label>
+        <input type="radio" id="normal" name="difficulty" value="normal" />
+        <label for="normal">ノーマル</label>
+        <input type="radio" id="hard" name="difficulty" value="hard"/>
+        <label for="hard">ハード</label>
+        <input type="radio" id="lunatic" name="difficulty" value="lunatic"/>
+        <label for="lunatic">ルナティック</label>
+    </p>
+    <ol id="dialog"></ol>
+    <p id="select"></p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+ol#dialog
+{
+    list-style: none;
+    padding: 0;
+}
+
+ol#dialog li
+{
+    margin: 0.2em;
+    padding: 0.2em;
+    border-radius: 5px;
+}
+
+li.you {
+    background-color: #cfc;
+}
+
+li.enemy {
+    background-color: #fcc;
+}
+
+li.description {
+    background-color: #ccc;
+}
+
+button {
+    margin: 0.2em;
+}
